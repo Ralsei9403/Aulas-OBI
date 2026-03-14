@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+
+int main(void){
+
+    int a, b, res;
+
+    cout << "Escreva os números que você quer multiplicar: ";
+    cin >> a >> b;
+
+    res = a * b;
+
+    cout << "O produto dos números é " << res << "\n";
+
+    return 0; 
+}

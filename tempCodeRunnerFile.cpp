@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
@@ -10,9 +10,10 @@ int main(void){
 
     if (a > b){
         cout << a << " é maior do que " << b << "\n";
-    } else {
+    } else if {
         cout << a << " não é maior do que " << b << "\n";
-    }
-
-    return 0;
+    } else if (a == b){
+        cout << a << " é igual a " << b << "\n";
+    }    
+       return 0;
 }
